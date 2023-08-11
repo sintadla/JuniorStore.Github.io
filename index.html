@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>website kuliner</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+ <!-- my fonts -->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+ <div class="container">
+     <div class="toggle-menu" onclick="menuToggle()"></div>
+     <ul class="navigation">
+       
+   
+<!-- header -->
+<header>
+    <a href="#" class="logo"><i class="fasfa-home"></i>junior store</a>
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About us</a>
+        <a href="menu.html">Menu</a>
+        <a href="blogs.html">Blogs</a>
+        <a href="komentar.html">Komentar</a>
+        <a href="orderan.html">Orderan</a>
+    </nav>
+    <div class="icons">
+        <i class="fas fa-bars" id="menu-bars"></i>
+        <i class="fas fa-search" id="search-icon"></i>
+        <i class="fas fa-heart"></i>
+    </div>
+</header>
+<!-- akhir header -->
+<!-- Mulai search format -->
+<form action=""id="search-form">
+    <input type="search" placeholder="Pencarian Disini.." name="" id="search-box">
+    <label for="search-form" class="fas fa-search"></label>
+    <i class="fas fa-times" id="close"></i>
+</form>
+<div class="content">
+    <div class="text-box">
+      <h2>Landing Page <br><span>Jelly Susu</span></h2>
+      <p>Junior Store merupakan nama dari kelompok pembuatan website yang bergerak di bidang minuman dan dikenal yang menyediakan minuman kekinian yang di gandrungi oleh generasi milenial dengan berbagai macam varian rasa serta harga yang terjangkau.
+        Junir store berati 
+      </p>
+      <a href="menu.html">View All Products</a>
+    </div>
+    <div class="img-box">
+      <img src="img/susuuu.jpg" class="pepsi">
+    </div>
+  </div>
+  <ul class="thumb">
+    <li><a href="#"><img src="img/susu_cklt rb.png" onclick="imgSlider('img/susu_cklt rb.png');changeBgColor('#DBA39A')"></a>
+    </li>
+    <li><a href="#"><img src="img/susu pink rb.png" onclick="imgSlider('img/susu pink rb.png');changeBgColor('#F06292')"></a>
+    </li>
+    <li><a href="#"><img src="img/hijau.png" onclick="imgSlider('img/hijau.png');changeBgColor('#ADE792')"></a>
+    </li>
+  </ul>
+</div>
+
+
+
+
+<!-- speciality section starts  -->
+
+<section class="speciality" id="speciality">
+
+    <h1 class="heading"> our <span>speciality</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img class="image" src="img/ssu1.jpg" alt="">
+            <div class="content">
+                <img src="img/s-4.png" alt="">
+                <h3>jelly susu</h3>
+                <p>Pengemasan yang higienis</p>
+            </div>
+        </div>
+        <div class="box">
+            <img class="image" src="img/ssu2.jpg" alt="">
+            <div class="content">
+                <img src="img/s-4.png" alt="">
+                <h3>jelly susu</h3>
+                <p>Dengan berbagai varian rasa</p>
+            </div>
+        </div>
+        <div class="box">
+            <img class="image" src="img/ssu3.jpg" alt="">
+            <div class="content">
+                <img src="img/s-4.png" alt="">
+                <h3>jelly susu</h3>
+                <p>Menyegarkan </p>
+            </div>
+        </div>
+        <div class="box">
+            <img class="image" src="img/ssu4.jpg" alt="">
+            <div class="content">
+                <img src="img/s-4.png" alt="">
+                <h3>jelly susu</h3>
+                <p>Kemasan yang menarik</p>
+            </div>
+        </div>
+        <div class="box">
+            <img class="image" src="img/ssu5.jpg" alt="">
+            <div class="content">
+                <img src="img/s-4.png" alt="">
+                <h3>Jelly susu</h3>
+                <p>Pengembali Mood</p>
+            </div>
+        </div>
+        <div class="box">
+            <img class="image" src="img/ssu6.jpg" alt="">
+            <div class="content">
+                <img src="img/s-4.png" alt="">
+                <h3>jelly susu</h3>
+                <p>Bisa dinikmati kapan saja</p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- speciality section ends -->
+
+
+<!-- Mulai inter -->
+<section  class="dishes" id="dishes">
+    <h3 class="sub-heading">Dokumentasi</h3>
+    <h1 class="heading">Pembuatan Minuman</h1>
+    <div class="box-container">
+        <div class="box">
+            <div class="main-video">
+                <div class="video">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <video src="img/vdio.mp4" controls muted autoplay></video>
+            <h3>Jelyy susuuuuuuu</h3>
+            <div class="stars">
+                <i class="fas fa-stars"></i>
+                <i class="fas fa-stars"></i>
+                <i class="fas fa-stars"></i>
+                <i class="fas fa-stars"></i>
+            </div>
+            </div>
+        </div>
+        </div>
+    
+</section>
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>locations</h3>
+            <a href="#">Padaherang</a>
+            <a href="#">Sambong</a>
+            <a href="#">Kalipucang</a>
+            <a href="#">Karangsari</a>
+            <a href="#">Sindangrasa</a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#">about</a>
+            <a href="#">menu</a>
+            <a href="#">reivew</a>
+            <a href="#">blogs</a>
+            <a href="#">order</a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#">+62 823-1603-6854</a>
+            <a href="#">+62 838-6530-4823 </a>
+            <a href="#">+62 813-2451-2754</a>
+            <a href="#">rahmaliaputri23@gmail.com</a>
+            <a href="#">Padaherang, Jawa Barat</a>
+        </div>
+
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="https://www.instagram.com/riskaaaarmdhnin/">instagram</a>
+            <a href="https://www.instagram.com/for_everyaa/">instagram</a>
+            <a href="https://www.instagram.com/sntadelia_/">instagram</a>
+
+        </div>
+
+    </div>
+    <div class="credit">created by <span>Anak Didik Bp.Ade Roni S.kom</span> | all rights reserved</div>
+
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+</body>
+</html>
